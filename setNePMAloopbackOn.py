@@ -5,7 +5,8 @@ import uhal
 
 uhal.setLogLevelTo( uhal.LogLevel.ERROR )
 
-manager = uhal.ConnectionManager("file:///home/cmx/kadamidi_tmp/28Gbps_test/28Gbps_test/28Gbps_connections.xml")
+#manager = uhal.ConnectionManager("file:///home/cmx/kadamidi_tmp/28Gbps_test/28Gbps_test/28Gbps_connections.xml")
+manager = uhal.ConnectionManager("file:///home/cmx/vpalladi_utils/28Gbps_test/28Gbps_connections.xml")
 
 # Connection file
 
